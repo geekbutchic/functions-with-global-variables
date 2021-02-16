@@ -3,34 +3,36 @@
  **********************************/
 
 let x = 3;
+let y = 10;
+let z = 4;
+let squareTheNumber = 4;
+let greeting = 'hello';
+let firstName = 'Sonny';
+let callStatus = 'ringing';
 
-function double () { 
+double = () => {
   x = x * 2;
 }
 
-let y = 10;
-
-function triple () {
+triple = () => {
   y = y * 3;
 }
 
-let z = 4
-
-function square () {
-  z = z * z; 
+square = () => {
+  z = z * z;
 }
 
-let greeting = "Hello";
-let firstName = "Sonny";
-
-function beNice () {
-  greeting = "hello" + "Sonny"
+beNice = () => {
+  greeting = greeting + firstName;
 }
 
-function changeName () {
-  firstName = "call ended";
+changeName = () => {
+  firstName = 'Danger';
 }
 
+hangUp = () => {
+  callStatus = 'call ended';
+}
 
 
 
